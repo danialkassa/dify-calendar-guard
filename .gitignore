@@ -1,0 +1,12 @@
+# Dify exports that accidentally include provider credentials. Never commit these.
+*.env
+.env
+.env.*
+**/secrets*.yml
+**/secrets*.yaml
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
